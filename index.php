@@ -18,29 +18,30 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-      <img src="./assets/paddle-white.png" alt="Halifax Canoe and Kayak" class="logo">
+      <img src="/paddle-white.png" alt="Halifax Canoe and Kayak" class="logo me-2">
+      <span class="fw-bold align-items-center">Halifax Canoe and Kayaking</span>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasLabel">Menu</h5>
+        <h5 class="offcanvas-title text-white" id="offcanvasLabel">Menu</h5>
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <div class="offcanvas-body bg-primary">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link text-light" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Book Trip</a>
+            <a class="nav-link text-light" href="#">Book Trip</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./main.php">Login</a>
+            <a class="nav-link text-light" href="/main.php">Login</a>
           </li>
         </ul>
       </div>
@@ -53,13 +54,13 @@
   <div id="carouselExampleAutoplaying" class="carousel slide mt-3 d-flex " data-bs-ride="carousel">
     <div class="carousel-inner ">
       <div class="carousel-item active">
-        <img src="./assets/kayaking blue rocks 1920x1080.jpg" class="d-block mx-auto" alt="...">
+        <img src="/kayaking blue rocks 1920x1080.jpg" class="d-block mx-auto" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="./assets/28869.jpg" style="width: 1280px;" class="d-block mx-auto " alt="...">
+        <img src="./28869.jpg" style="width: 1280px;" class="d-block mx-auto " alt="...">
       </div>
       <div class="carousel-item">
-        <img src="./assets/canoe.jpg" class="d-block mx-auto" style="width: 1280px;" alt="...">
+        <img src="./canoe.jpg" class="d-block mx-auto" style="width: 1280px;" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
@@ -98,7 +99,7 @@
       <div class="card mb-3 " style="max-width: 650px;">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="./assets/kayaking blue rocks 1920x1080.jpg" class="img-fluid rounded-start" alt="..."
+            <img src="/kayaking blue rocks 1920x1080.jpg" class="img-fluid rounded-start" alt="..."
               style="height: 300px;">
           </div>
           <div class="col-md-8">
@@ -116,7 +117,7 @@
       <div class="card mb-3" style="max-width: 650px;">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="./assets/28869.jpg" class="img-fluid rounded-start" alt="..." style="height: 300px;">
+            <img src="/28869.jpg" class="img-fluid rounded-start" alt="..." style="height: 300px;">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -137,7 +138,7 @@
       <div class="card mb-3" style="max-width: 650px;">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="./assets/2-hour-exploratour-along.jpg" class="img-fluid rounded-start" alt="..."
+            <img src="/2-hour-exploratour-along.jpg" class="img-fluid rounded-start" alt="..."
               style="height: 345px;">
           </div>
           <div class="col-md-8">
@@ -156,7 +157,7 @@
       <div class="card mb-3" style="max-width: 650px;">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="./assets/download.jfif" class="img-fluid rounded-start" alt="..." style="height: 345px;">
+            <img src="/download.jfif" class="img-fluid rounded-start" alt="..." style="height: 345px;">
           </div>
           <div class="col-md-8">
             <div class="card-body">
